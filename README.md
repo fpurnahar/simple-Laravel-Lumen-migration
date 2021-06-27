@@ -1,5 +1,5 @@
 ## Laravel Lumen
-- This is laravel lumen simple backend migration database
+- This is laravel lumen simple backend Multiple migration database -/Folder
 
 ## note make migrate folder
 -  php artisan migrate --path='database/migrations/cms'
@@ -7,6 +7,6 @@
 -  php artisan migrate --path='database/migrations/estore'
 
 ## note migrate
--php artisan migrate:fresh --path='database/migrations/cms' --database=fpurnahar_cms
--php artisan migrate:fresh --path='database/migrations/account' --database=fpurnahar_account
--php artisan migrate:fresh --path='database/migrations/estore' --database=fpurnahar_estore
+- php artisan migrate:fresh --path='database/migrations/cms' --database=fpurnahar_cms
+- php artisan migrate:fresh --path='database/migrations/account' --database=fpurnahar_account
+- php artisan migrate:fresh --path='database/migrations/estore' --database=fpurnahar_estore
